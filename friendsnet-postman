@@ -1,0 +1,1759 @@
+ {
+	"info": {
+		"_postman_id": "d2d6ccf9-ad92-4e9c-939f-813360b08d90",
+		"name": "friendsnet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Sebastian\",\n    \"surname\": \"Vettel\",\n    \"picture\": \"AQI=\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Lewis\",\n    \"surname\": \"Hamilton\",\n    \"picture\": \"AQI=\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Kimi\",\n    \"surname\": \"Raikkonen\",\n    \"picture\": \"AQI=\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Daniel\",\n    \"surname\": \"Riccardo\",\n    \"picture\": \"AQI=\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Valteri\",\n    \"surname\": \"Bottas\",\n    \"picture\": \"AQI=\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/person",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/person/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Random\",\n    \"surname\": \"Name\",\n    \"picture\": \"AQI=\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 6,\n        \"name\": \"Some Other\",\n        \"surname\": \"Random Name\",\n        \"picture\": \"AQI=\"\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person/6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/person/6",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"F1Racing\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\n            \t\"id\": 1,\n                \"name\": \"Sebastian\",\n        \t\t\"surname\": \"Vettel\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\t\n            \t\"id\": 2,\n                \"name\": \"Lewis\",\n    \t\t\t\"surname\": \"Hamilton\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n\n                \"id\": 3,\n        \t\t\"name\": \"Kimi\",\n        \t\t\"surname\": \"Raikkonen\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 4,\n        \t\t\"name\": \"Daniel\",\n        \t\t\"surname\": \"Riccardo\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 5,\n        \t\t\"name\": \"Valteri\",\n        \t\t\"surname\": \"Bottas\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Ferrari F1 Team\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\n            \t\"id\": 1,\n                \"name\": \"Sebastian\",\n        \t\t\"surname\": \"Vettel\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n\n                \"id\": 3,\n        \t\t\"name\": \"Kimi\",\n        \t\t\"surname\": \"Raikkonen\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Mercedes F1 Team\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\t\n            \t\"id\": 2,\n                \"name\": \"Lewis\",\n    \t\t\t\"surname\": \"Hamilton\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 5,\n        \t\t\"name\": \"Valteri\",\n        \t\t\"surname\": \"Bottas\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"RedBull F1 Team\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\n            \t\"id\": 4,\n        \t\t\"name\": \"Daniel\",\n        \t\t\"surname\": \"Riccardo\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group/8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group/8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group/person/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group/person/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group",
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Empty Group\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            \n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Random\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\t\n            \t\"id\": 2,\n                \"name\": \"Lewis\",\n    \t\t\t\"surname\": \"Hamilton\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n\n                \"id\": 3,\n        \t\t\"name\": \"Kimi\",\n        \t\t\"surname\": \"Raikkonen\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 4,\n        \t\t\"name\": \"Daniel\",\n        \t\t\"surname\": \"Riccardo\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 11,\n        \"name\": \"Random Other Name\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\n                \"id\": 3,\n                \"name\": \"Kimi\",\n                \"surname\": \"Raikkonen\",\n                \"picture\": \"AQI=\"\n            },\n\t\t\t{\n            \t\"id\": 1,\n                \"name\": \"Sebastian\",\n        \t\t\"surname\": \"Vettel\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n                \"id\": 4,\n                \"name\": \"Daniel\",\n                \"surname\": \"Riccardo\",\n                \"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 11,\n        \"name\": \"Random Other Name\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            \n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Random\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\t\n            \t\"id\": 2,\n                \"name\": \"Lewis\",\n    \t\t\t\"surname\": \"Hamilton\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n\n                \"id\": 3,\n        \t\t\"name\": \"Kimi\",\n        \t\t\"surname\": \"Raikkonen\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 4,\n        \t\t\"name\": \"Daniel\",\n        \t\t\"surname\": \"Riccardo\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group/12",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group/12",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/group",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"name\": \"German GP\",\n        \"startingDate\": \"2018-07-20T11:00:00\",\n        \"endingDate\": \"2018-07-22T15:10:00\",\n        \"type\": \"GENERAL\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\n            \t\"id\": 1,\n                \"name\": \"Sebastian\",\n        \t\t\"surname\": \"Vettel\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\t\n            \t\"id\": 2,\n                \"name\": \"Lewis\",\n    \t\t\t\"surname\": \"Hamilton\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n\n                \"id\": 3,\n        \t\t\"name\": \"Kimi\",\n        \t\t\"surname\": \"Raikkonen\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 4,\n        \t\t\"name\": \"Daniel\",\n        \t\t\"surname\": \"Riccardo\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 5,\n        \t\t\"name\": \"Valteri\",\n        \t\t\"surname\": \"Bottas\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Hungarian GP\",\n        \"startingDate\": \"2018-07-27T11:00:00\",\n        \"endingDate\": \"2018-07-29T15:10:00\",\n        \"type\": \"GENERAL\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\n            \t\"id\": 1,\n                \"name\": \"Sebastian\",\n        \t\t\"surname\": \"Vettel\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n\n                \"id\": 3,\n        \t\t\"name\": \"Kimi\",\n        \t\t\"surname\": \"Raikkonen\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Belgian GP\",\n        \"startingDate\": \"2018-08-24T11:00:00\",\n        \"endingDate\": \"2018-08-26T15:10:00\",\n        \"type\": \"GENERAL\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\t\n            \t\"id\": 2,\n                \"name\": \"Lewis\",\n    \t\t\t\"surname\": \"Hamilton\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 5,\n        \t\t\"name\": \"Valteri\",\n        \t\t\"surname\": \"Bottas\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Italian GP\",\n        \"startingDate\": \"2018-08-31T11:00:00\",\n        \"endingDate\": \"2018-09-02T15:10:00\",\n        \"type\": \"GENERAL\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\n            \t\"id\": 4,\n        \t\t\"name\": \"Daniel\",\n        \t\t\"surname\": \"Riccardo\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event/14",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event/14",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event",
+						"14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event/person/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event/person/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event",
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Empty Event\",\n        \"startingDate\": \"2019-07-20T11:00:00\",\n        \"endingDate\": \"2019-07-22T15:10:00\",\n        \"type\": \"PARTY\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            \n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Random Event\",\n        \"startingDate\": \"2020-07-20T11:00:00\",\n        \"endingDate\": \"2020-07-22T15:10:00\",\n        \"type\": \"PARTY\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\t\n            \t\"id\": 2,\n                \"name\": \"Lewis\",\n    \t\t\t\"surname\": \"Hamilton\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n\n                \"id\": 3,\n        \t\t\"name\": \"Kimi\",\n        \t\t\"surname\": \"Raikkonen\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 4,\n        \t\t\"name\": \"Daniel\",\n        \t\t\"surname\": \"Riccardo\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 17,\n        \"name\": \"Random Event Other Name\",\n        \"startingDate\": \"2029-07-20T11:00:00\",\n        \"endingDate\": \"2029-07-22T15:10:00\",\n        \"type\": \"PARTY\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\n                \"id\": 3,\n                \"name\": \"Kimi\",\n                \"surname\": \"Raikkonen\",\n                \"picture\": \"AQI=\"\n            },\n\t\t\t{\n            \t\"id\": 1,\n                \"name\": \"Sebastian\",\n        \t\t\"surname\": \"Vettel\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n                \"id\": 4,\n                \"name\": \"Daniel\",\n                \"surname\": \"Riccardo\",\n                \"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 17,\n        \"name\": \"Random Event Other Name\",\n        \"startingDate\": \"2029-07-20T11:00:00\",\n        \"endingDate\": \"2029-07-22T15:10:00\",\n        \"type\": \"PARTY\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            \n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n    \t\"name\": \"Random Event\",\n        \"startingDate\": \"2026-07-20T11:00:00\",\n        \"endingDate\": \"2026-07-22T15:10:00\",\n        \"type\": \"GENERAL\",\n        \"picture\": \"AQI=\",\n        \"persons\": [\n            {\t\n            \t\"id\": 2,\n                \"name\": \"Lewis\",\n    \t\t\t\"surname\": \"Hamilton\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n\n                \"id\": 3,\n        \t\t\"name\": \"Kimi\",\n        \t\t\"surname\": \"Raikkonen\",\n        \t\t\"picture\": \"AQI=\"\n            },\n            {\n            \t\"id\": 4,\n        \t\t\"name\": \"Daniel\",\n        \t\t\"surname\": \"Riccardo\",\n        \t\t\"picture\": \"AQI=\"\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event/18",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event/18",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event",
+						"18"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/event",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"text\": \"Hi from Vettel\",\n        \"creationDate\": \"2018-08-08T12:00:00\",\n        \"type\": \"STATUS\",\n        \"picture\": \"AQI=\",\n        \"event\": {\n            \"id\": 13,\n            \"name\": \"German GP\",\n            \"startingDate\": \"2018-07-20T11:00:00\",\n            \"endingDate\": \"2018-07-22T15:10:00\",\n            \"type\": \"GENERAL\",\n            \"picture\": \"AQI=\",\n            \"persons\": [\n                {\n                    \"id\": 2,\n                    \"name\": \"Lewis\",\n                    \"surname\": \"Hamilton\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 4,\n                    \"name\": \"Daniel\",\n                    \"surname\": \"Riccardo\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 1,\n                    \"name\": \"Sebastian\",\n                    \"surname\": \"Vettel\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 3,\n                    \"name\": \"Kimi\",\n                    \"surname\": \"Raikkonen\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 5,\n                    \"name\": \"Valteri\",\n                    \"surname\": \"Bottas\",\n                    \"picture\": \"AQI=\"\n                }\n            ]\n        },\n        \"person\": {\n            \"id\": 1,\n            \"name\": \"Sebastian\",\n            \"surname\": \"Vettel\",\n            \"picture\": \"AQI=\"\n        }\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"text\": \"Hi from Hamilton\",\n        \"creationDate\": \"2018-08-08T12:00:00\",\n        \"type\": \"STATUS\",\n        \"picture\": \"AQI=\",\n        \"event\": {\n            \"id\": 13,\n            \"name\": \"German GP\",\n            \"startingDate\": \"2018-07-20T11:00:00\",\n            \"endingDate\": \"2018-07-22T15:10:00\",\n            \"type\": \"GENERAL\",\n            \"picture\": \"AQI=\",\n            \"persons\": [\n                {\n                    \"id\": 2,\n                    \"name\": \"Lewis\",\n                    \"surname\": \"Hamilton\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 4,\n                    \"name\": \"Daniel\",\n                    \"surname\": \"Riccardo\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 1,\n                    \"name\": \"Sebastian\",\n                    \"surname\": \"Vettel\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 3,\n                    \"name\": \"Kimi\",\n                    \"surname\": \"Raikkonen\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 5,\n                    \"name\": \"Valteri\",\n                    \"surname\": \"Bottas\",\n                    \"picture\": \"AQI=\"\n                }\n            ]\n        },\n        \"person\": {\n            \"id\": 2,\n            \"name\": \"Lewis\",\n            \"surname\": \"Hamilton\",\n            \"picture\": \"AQI=\"\n        }\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post/20",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/post/20",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post/person/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/post/person/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post",
+						"person",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post/event/13",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/post/event/13",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post",
+						"event",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"text\": \"Random Post text\",\n        \"creationDate\": \"2018-08-08T12:00:00\",\n        \"type\": \"STATUS\",\n        \"picture\": \"AQI=\",\n        \"event\": {\n            \"id\": 13,\n            \"name\": \"German GP\",\n            \"startingDate\": \"2018-07-20T11:00:00\",\n            \"endingDate\": \"2018-07-22T15:10:00\",\n            \"type\": \"GENERAL\",\n            \"picture\": \"AQI=\",\n            \"persons\": [\n                {\n                    \"id\": 2,\n                    \"name\": \"Lewis\",\n                    \"surname\": \"Hamilton\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 4,\n                    \"name\": \"Daniel\",\n                    \"surname\": \"Riccardo\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 1,\n                    \"name\": \"Sebastian\",\n                    \"surname\": \"Vettel\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 3,\n                    \"name\": \"Kimi\",\n                    \"surname\": \"Raikkonen\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 5,\n                    \"name\": \"Valteri\",\n                    \"surname\": \"Bottas\",\n                    \"picture\": \"AQI=\"\n                }\n            ]\n        },\n        \"person\": {\n            \"id\": 2,\n            \"name\": \"Lewis\",\n            \"surname\": \"Hamilton\",\n            \"picture\": \"AQI=\"\n        }\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\"id\": 21,\n        \"text\": \"We have canged text of post\",\n        \"creationDate\": \"2018-08-08T12:00:00\",\n        \"type\": \"STATUS\",\n        \"picture\": \"AQI=\",\n        \"event\": {\n            \"id\": 13,\n            \"name\": \"German GP\",\n            \"startingDate\": \"2018-07-20T11:00:00\",\n            \"endingDate\": \"2018-07-22T15:10:00\",\n            \"type\": \"GENERAL\",\n            \"picture\": \"AQI=\",\n            \"persons\": [\n                {\n                    \"id\": 2,\n                    \"name\": \"Lewis\",\n                    \"surname\": \"Hamilton\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 4,\n                    \"name\": \"Daniel\",\n                    \"surname\": \"Riccardo\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 1,\n                    \"name\": \"Sebastian\",\n                    \"surname\": \"Vettel\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 3,\n                    \"name\": \"Kimi\",\n                    \"surname\": \"Raikkonen\",\n                    \"picture\": \"AQI=\"\n                },\n                {\n                    \"id\": 5,\n                    \"name\": \"Valteri\",\n                    \"surname\": \"Bottas\",\n                    \"picture\": \"AQI=\"\n                }\n            ]\n        },\n        \"person\": {\n            \"id\": 2,\n            \"name\": \"Lewis\",\n            \"surname\": \"Hamilton\",\n            \"picture\": \"AQI=\"\n        }\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post/21",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/post/21",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post",
+						"21"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"creationDate\": \"2018-08-08T12:00:00\",\n        \"type\": \"COOL\",\n        \"post\": {\n            \"id\": 19,\n            \"text\": \"Hi from Vettel\",\n            \"creationDate\": \"2018-08-08T12:00:00\",\n            \"type\": \"STATUS\",\n            \"picture\": \"AQI=\",\n            \"event\": {\n                \"id\": 13,\n                \"name\": \"German GP\",\n                \"startingDate\": \"2018-07-20T11:00:00\",\n                \"endingDate\": \"2018-07-22T15:10:00\",\n                \"type\": \"GENERAL\",\n                \"picture\": \"AQI=\",\n                \"persons\": [\n                    {\n                        \"id\": 2,\n                        \"name\": \"Lewis\",\n                        \"surname\": \"Hamilton\",\n                        \"picture\": \"AQI=\"\n                    },\n                    {\n                        \"id\": 3,\n                        \"name\": \"Kimi\",\n                        \"surname\": \"Raikkonen\",\n                        \"picture\": \"AQI=\"\n                    },\n                    {\n                        \"id\": 1,\n                        \"name\": \"Sebastian\",\n                        \"surname\": \"Vettel\",\n                        \"picture\": \"AQI=\"\n                    },\n                    {\n                        \"id\": 4,\n                        \"name\": \"Daniel\",\n                        \"surname\": \"Riccardo\",\n                        \"picture\": \"AQI=\"\n                    },\n                    {\n                        \"id\": 5,\n                        \"name\": \"Valteri\",\n                        \"surname\": \"Bottas\",\n                        \"picture\": \"AQI=\"\n                    }\n                ]\n            },\n            \"person\": {\n                \"id\": 1,\n                \"name\": \"Sebastian\",\n                \"surname\": \"Vettel\",\n                \"picture\": \"AQI=\"\n            }\n        },\n        \"person\": {\n            \"id\": 3,\n        \t\"name\": \"Kimi\",\n        \t\"surname\": \"Raikkonen\",\n        \t\"picture\": \"AQI=\"\n        }\n    }\n"
+				},
+				"url": {
+					"raw": "localhost:8080/like",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"creationDate\": \"2018-08-08T12:00:00\",\n        \"type\": \"COOL\",\n        \"post\": {\n            \"id\": 20,\n        \t\"text\": \"Hi from Hamilton\",\n        \t\"creationDate\": \"2018-08-08T12:00:00\",\n        \t\"type\": \"STATUS\",\n        \t\"picture\": \"AQI=\",\n        \t\"event\": {\n            \t\"id\": 13,\n            \t\"name\": \"German GP\",\n            \t\"startingDate\": \"2018-07-20T11:00:00\",\n            \t\"endingDate\": \"2018-07-22T15:10:00\",\n            \t\"type\": \"GENERAL\",\n            \t\"picture\": \"AQI=\",\n            \t\"persons\": [\n            \t    {\n                \t    \"id\": 3,\n                    \t\"name\": \"Kimi\",\n                    \t\"surname\": \"Raikkonen\",\n                    \t\"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 4,\n                \t    \"name\": \"Daniel\",\n                \t    \"surname\": \"Riccardo\",\n                \t    \"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 5,\n                \t    \"name\": \"Valteri\",\n                \t    \"surname\": \"Bottas\",\n                \t    \"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 1,\n                \t    \"name\": \"Sebastian\",\n                \t    \"surname\": \"Vettel\",\n                \t    \"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 2,\n                \t    \"name\": \"Lewis\",\n                \t    \"surname\": \"Hamilton\",\n                \t    \"picture\": \"AQI=\"\n                \t}\n            \t]\n        \t},\n        \t\"person\": {\n        \t    \"id\": 2,\n        \t    \"name\": \"Lewis\",\n        \t    \"surname\": \"Hamilton\",\n        \t    \"picture\": \"AQI=\"\n        \t}\n        },\n        \"person\": {\n            \"id\": 5,\n            \"name\": \"Valteri\",\n            \"surname\": \"Bottas\",\n            \"picture\": \"AQI=\"\n        }\n    }\n"
+				},
+				"url": {
+					"raw": "localhost:8080/like",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/like",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like/23",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/like/23",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like",
+						"23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like/person/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/like/person/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like",
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like/post/20",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/like/post/20",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like",
+						"post",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"creationDate\": \"2018-08-08T12:00:00\",\n        \"type\": \"COOL\",\n        \"post\": {\n            \"id\": 20,\n        \t\"text\": \"Hi from Hamilton\",\n        \t\"creationDate\": \"2018-08-08T12:00:00\",\n        \t\"type\": \"STATUS\",\n        \t\"picture\": \"AQI=\",\n        \t\"event\": {\n            \t\"id\": 13,\n            \t\"name\": \"German GP\",\n            \t\"startingDate\": \"2018-07-20T11:00:00\",\n            \t\"endingDate\": \"2018-07-22T15:10:00\",\n            \t\"type\": \"GENERAL\",\n            \t\"picture\": \"AQI=\",\n            \t\"persons\": [\n            \t    {\n                \t    \"id\": 3,\n                    \t\"name\": \"Kimi\",\n                    \t\"surname\": \"Raikkonen\",\n                    \t\"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 4,\n                \t    \"name\": \"Daniel\",\n                \t    \"surname\": \"Riccardo\",\n                \t    \"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 5,\n                \t    \"name\": \"Valteri\",\n                \t    \"surname\": \"Bottas\",\n                \t    \"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 1,\n                \t    \"name\": \"Sebastian\",\n                \t    \"surname\": \"Vettel\",\n                \t    \"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 2,\n                \t    \"name\": \"Lewis\",\n                \t    \"surname\": \"Hamilton\",\n                \t    \"picture\": \"AQI=\"\n                \t}\n            \t]\n        \t},\n        \t\"person\": {\n        \t    \"id\": 2,\n        \t    \"name\": \"Lewis\",\n        \t    \"surname\": \"Hamilton\",\n        \t    \"picture\": \"AQI=\"\n        \t}\n        },\n        \"person\": {\n            \"id\": 4,\n            \"name\": \"Daniel\",\n            \"surname\": \"Riccardo\",\n            \"picture\": \"AQI=\"\n        }\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/like",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/like",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n    \t\"id\": 24,\n        \"creationDate\": \"2018-08-08T12:00:00\",\n        \"type\": \"DONTCARE\",\n        \"post\": {\n            \"id\": 20,\n        \t\"text\": \"Hi from Hamilton\",\n        \t\"creationDate\": \"2018-08-08T12:00:00\",\n        \t\"type\": \"STATUS\",\n        \t\"picture\": \"AQI=\",\n        \t\"event\": {\n            \t\"id\": 13,\n            \t\"name\": \"German GP\",\n            \t\"startingDate\": \"2018-07-20T11:00:00\",\n            \t\"endingDate\": \"2018-07-22T15:10:00\",\n            \t\"type\": \"GENERAL\",\n            \t\"picture\": \"AQI=\",\n            \t\"persons\": [\n            \t    {\n                \t    \"id\": 3,\n                    \t\"name\": \"Kimi\",\n                    \t\"surname\": \"Raikkonen\",\n                    \t\"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 4,\n                \t    \"name\": \"Daniel\",\n                \t    \"surname\": \"Riccardo\",\n                \t    \"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 5,\n                \t    \"name\": \"Valteri\",\n                \t    \"surname\": \"Bottas\",\n                \t    \"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 1,\n                \t    \"name\": \"Sebastian\",\n                \t    \"surname\": \"Vettel\",\n                \t    \"picture\": \"AQI=\"\n                \t},\n                \t{\n                \t    \"id\": 2,\n                \t    \"name\": \"Lewis\",\n                \t    \"surname\": \"Hamilton\",\n                \t    \"picture\": \"AQI=\"\n                \t}\n            \t]\n        \t},\n        \t\"person\": {\n        \t    \"id\": 2,\n        \t    \"name\": \"Lewis\",\n        \t    \"surname\": \"Hamilton\",\n        \t    \"picture\": \"AQI=\"\n        \t}\n        },\n        \"person\": {\n            \"id\": 4,\n            \"name\": \"Daniel\",\n            \"surname\": \"Riccardo\",\n            \"picture\": \"AQI=\"\n        }\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/like",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/like",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like/24",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/like/24",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like",
+						"24"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/like",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/like",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

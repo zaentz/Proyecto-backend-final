@@ -85,7 +85,7 @@ public class EventController {
         }
     }
 
-    //Update event, si añadimos persona al evento apra que lo guarde.
+    //Update event, si añadimos persona al evento para que lo guarde.
     @PutMapping(value = "/event")
     public void update(@RequestBody Event event) {
         if (event.getPersons().isEmpty()) {

@@ -43,7 +43,7 @@ public class GroupController {
         }
     }
 
-    // Retunr una lista de groups para el id de la persona, una persona puede estar en muchos grupos.
+    // Return una lista de groups para el id de la persona, una persona puede estar en muchos grupos.
     @GetMapping(value = "/group/person/{id}")
     public List<Group> getByPersonId(@PathVariable String id) {
         try {
